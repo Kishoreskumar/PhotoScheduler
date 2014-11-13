@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.screen2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.screen2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.screen2.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.screen2.Signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name="com.example.screen2.Sign"
+            android:label="@string/title_activity_sign" >
+        </activity>
+        <activity
+            android:name="com.example.screen2.Location"
+            android:label="@string/title_activity_location" >
+        </activity>
+        <activity
+            android:name="com.example.screen2.Log"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name="com.example.screen2.Select"
+            android:label="@string/title_activity_select" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Screen2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_sign">Sign</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_log">Log</string>
+    <string name="title_activity_select">Select</string>
+    <string name="selectcity">Select City</string>
+    <string name="selectcity1">Type City Name</string>
+
+</resources>
